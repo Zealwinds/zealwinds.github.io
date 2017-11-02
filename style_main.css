@@ -1,0 +1,107 @@
+/* Generic Selectors */
+
+body {
+    font-family: 'Raleway', sans-serif, "Times New Roman";
+    font-size: 180%;
+    border: none color: #7aa89f;
+    background-color: rgb(80, 80, 80);
+    color: #7aa89f;
+}
+
+p {
+    width: 80%;
+}
+
+ul {
+    font-family: 'Raleway', sans-serif;
+    font-size: 180%;
+    list-style-type: none;
+    margin: 1;
+    padding: 25;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #7aa89f;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(133, 255, 221);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(123, 255, 232);
+    font-family: 'Merriweather', serif;
+    font-size: 285%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(123, 255, 232);
+    font-family: 'Merriweather', serif;
+    font-size: 215%;
+}
+
+
+/**************** Pseudo classes ****************/
+
+a:link {
+    color: rgb(127, 240, 15);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(127, 240, 15);
+}
+
+a:hover {
+    color: rgb(77, 139, 15);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(212, 252, 79);
+    font-weight: bold;
+}
+
+#centerDoc a:link {
+    color: rgb(127, 240, 15);
+    text-decoration: underline;
+}
+
+#centerDoc a:hover {
+    color: rgb(77, 139, 15);
+}
+
+/************************* ID's *************************/
+
+#navigation {
+
+    position: absolute;
+    z-index: 10;
+    width: 210px;
+    height: 600px;
+    margin: 0;
+    border-right: 2px solid rgba(14, 235, 142, 0.6);
+    font-weight: normal;
+}
+
+#centerDoc {
+    position: absolute;
+    z-index: 15;
+    padding: 0 0 20px 20px;
+    /*top right bottom left*/
+    margin-top: 50px;
+    margin-left: 235px;
+    width: 80%;
+}
