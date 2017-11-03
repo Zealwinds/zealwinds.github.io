@@ -3,13 +3,15 @@
 body {
     font-family: 'Raleway', sans-serif, "Times New Roman";
     font-size: 110%;
-    border: none color: #7aa89f;
+    border: none 
+    color: rgb(150, 150, 150);
     background-color: rgb(80, 80, 80);
     color: #7aa89f;
 }
 
 p {
     width: 80%;
+    color: rgb(150, 150, 150);
 }
 
 ul {
@@ -35,16 +37,9 @@ li a {
 
 h1 {
     text-align: center;
-    color: rgb(123, 255, 232);
+    color: rgb(150, 150, 150);
     font-family: 'Merriweather', serif;
     font-size: 285%;
-}
-
-h1 {
-    text-align: center;
-    color: rgb(123, 255, 232);
-    font-family: 'Merriweather', serif;
-    font-size: 215%;
 }
 
 
