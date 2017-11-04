@@ -77,13 +77,13 @@ a:active {
 /************************* ID's *************************/
 
 
-#centerDoc {
+#MainContent {
+    font-size: 120%;
     position: absolute;
     z-index: 15;
-    padding: 0 0 20px 20px;
+    padding: 20px 20px 20px 20px;
     /*top right bottom left*/
-    margin-top: 50px;
-    margin-left: 235px;
+    margin-top: 10px;
     width: 80%;
 }
 
