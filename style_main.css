@@ -32,7 +32,7 @@ ul {
 }
 
 li {
-    vertical-align: center;
+    float: center;
 }
 
 li a {
