@@ -1,10 +1,4 @@
 /* Generic Selectors */
-
-html {
-    display: table;
-    margin: auto;
-}
-
 body {
     font-family: 'Raleway', sans-serif, "Times New Roman";
     font-size: 110%;
@@ -31,11 +25,9 @@ ul {
     background-color: rgba(25, 25, 25, 0.5);
 }
 
-li {
-    float: center;
-}
-
 li a {
+    margin: auto;
+    width: 50%;
     display: block;
     text-align: center;
     padding: 16px;
