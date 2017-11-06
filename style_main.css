@@ -87,3 +87,13 @@ hr {
     background-color: #333333;
     color: rgb(200, 200, 200);
 }
+
+div.container{ 
+    display: flex;
+    align-items: center; 
+    align-content: center; 
+    justify-content: center; 
+}
+div.content { 
+    flex: 0 0 auto;
+}
