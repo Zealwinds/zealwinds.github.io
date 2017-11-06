@@ -1,4 +1,10 @@
 /* Generic Selectors */
+
+
+html {
+    display: table;
+    margin: auto;
+}
 body {
     font-family: 'Raleway', sans-serif, "Times New Roman";
     font-size: 110%;
