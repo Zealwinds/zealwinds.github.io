@@ -25,7 +25,7 @@ ul {
 }
 
 li {
-    float: left;
+    vertical-align: center;
 }
 
 li a {
