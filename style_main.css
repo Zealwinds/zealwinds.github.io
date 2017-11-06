@@ -43,14 +43,16 @@ h1 {
 }
 
 img {
-    align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 hr {
-    align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
 }
-
-
 
 
 /**************** Pseudo classes ****************/
