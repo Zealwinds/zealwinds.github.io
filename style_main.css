@@ -59,10 +59,10 @@ body {
   }
   /* mouse over link */
   a:hover {
-      rgb(215, 255, 106);
+      color: rgb(215, 255, 106);
       background-color: rgb(207, 207, 207);
   }
   /* selected link */
   a:active {
-      rgb(254, 243, 107);
+      color: rgb(254, 243, 107);
   }
