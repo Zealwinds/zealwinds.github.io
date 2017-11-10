@@ -15,6 +15,23 @@ body {
   width: 100%;
   background-color: rgb(130,130,130);
   font-family:'Vollkorn SC', serif, "times new roman";
+  font-size: 25px;
+  /* unvisited link */
+  a:link {
+      color: rgb(205, 253, 40);
+  }
+  /* visited link */
+  a:visited {
+      color: rgb(205, 253, 40);
+  }
+  /* mouse over link */
+  a:hover {
+      rgb(215, 255, 106);
+  }
+  /* selected link */
+  a:active {
+      rgb(254, 243, 107);
+  }
 }
 
 .centerbox {
