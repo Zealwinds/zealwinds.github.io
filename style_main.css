@@ -41,8 +41,10 @@ body {
 
 /* ID's */
 
-#navlist ul {
-  list-style: none;
+#navlist li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
 }
 
 /* OTHER */
