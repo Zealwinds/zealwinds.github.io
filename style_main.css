@@ -41,7 +41,7 @@ body {
 
 /* ID's */
 
-#navlist {
+#navlist ul {
   list-style: none;
 }
 #ul_top_hypers li {
