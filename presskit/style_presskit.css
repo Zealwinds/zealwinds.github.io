@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-color: rgb(255,255,255);
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'PT Serif', serif, "times new roman";
+}
+
+/* CLASSES */
+
+.fullscreen {
+  height: 800px;
+  height: 100vh;
+  width: 100%;
+}
+
+.navigation {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(130,130,130);
+  font-family:'Vollkorn SC', serif, "times new roman";
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.centerbox {
+  text-align: center;
+  background-color: rgb(90,90,90);
+}
+
+.centerbox:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+
+.centerbox > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ID's */
+
+#navlist li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+/* OTHER */
+
+  /* unvisited link */
+  a:link {
+      color: rgb(149, 185, 24);
+  }
+  /* visited link */
+  a:visited {
+      color: rgb(96, 131, 30);
+  }
+  /* mouse over link */
+  a:hover {
+      color: rgb(215, 255, 106);
+  }
+  /* selected link */
+  a:active {
+      color: rgb(254, 243, 107);
+  }
