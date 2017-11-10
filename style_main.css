@@ -34,3 +34,7 @@ body {
   display: inline-block;
   vertical-align: middle;
 }
+
+#navlist {
+  list-style: none;
+}
