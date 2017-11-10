@@ -13,7 +13,11 @@ body {
 .navigation {
   height: 100px;
   width: 100%;
-  background-color: rgb(130,130,130); 
+  background-color: rgb(130,130,130);
+  font-family:'Vollkorn SC', serif, "times new roman";
+  .ul {
+    style: none;
+    {
 }
 
 .centerbox {
