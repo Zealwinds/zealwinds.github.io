@@ -2,7 +2,6 @@ body {
   margin: auto;
   background-color: rgb(255,255,255);
     font-size: 20px;
-    margin-left: 30px;
     font-family: 'PT Serif', serif, "times new roman";
 }
 
@@ -53,17 +52,22 @@ body {
 
   /* unvisited link */
   a:link {
-      color: rgb(149, 185, 24);
+      color: rgb(208, 252, 3);
+      text-decoration: none;
   }
   /* visited link */
   a:visited {
-      color: rgb(96, 131, 30);
+      color: rgb(208, 252, 3);
+    text-decoration: none;
   }
   /* mouse over link */
   a:hover {
       color: rgb(215, 255, 106);
+    background-color: rgb(33, 33, 33);
+    text-decoration: none;
   }
   /* selected link */
   a:active {
       color: rgb(254, 243, 107);
+    text-decoration: none;
   }
