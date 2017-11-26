@@ -1,8 +1,4 @@
-head {
-      <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-}
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway|Bitter');
 body {
   margin: auto;
   background-color: rgb(255,255,255);
