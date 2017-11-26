@@ -19,7 +19,7 @@ body {
   background-color: rgb(130,130,130);
   font-family:'Vollkorn SC', serif, "times new roman";
   text-decoration: none;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .centerbox {
@@ -71,3 +71,23 @@ body {
       color: rgb(254, 243, 107);
     text-decoration: none;
   }
+
+p
+{
+   font-family: 'Bitter', serif, "times new roman";
+  font-size: 24px;
+}
+h1
+{
+   font-family: 'Bitter', serif, "times new roman";
+  font-size: 34px;
+}
+h2
+{
+   font-family: 'Bitter', serif, "times new roman";
+  font-size: 30px;
+}h3
+{
+   font-family: 'Bitter', serif, "times new roman";
+  font-size: 27px;
+}
